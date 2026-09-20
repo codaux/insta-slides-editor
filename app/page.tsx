@@ -11,20 +11,14 @@ const PREVIEW = 0.285;
 
 const fonts = [
   'Vazirmatn',
-  'Noto Sans Arabic',
-  'Noto Naskh Arabic',
-  'Lalezar',
-  'Markazi Text',
-  'Cairo',
-  'Tajawal',
-  'Changa',
-  'Reem Kufi',
-  'Inter',
-  'Merriweather',
-  'Libre Baskerville',
-  'Playfair Display',
-  'Roboto Slab',
-  'Caveat',
+  'Sahel',
+  'Shabnam',
+  'Samim',
+  'Parastoo',
+  'Tanha',
+  'Gandom',
+  'Nahid',
+  'Vazir Code',
 ];
 
 const sampleHtml = `
