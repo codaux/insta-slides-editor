@@ -20,7 +20,7 @@ select,input[type=number]{width:100%;border:1px solid var(--line);border-radius:
 .richToolbar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
 .richToolbar button,.actionRow button,.pageMeta button{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 9px;min-width:34px;color:#334155}
 .richToolbar button:hover,.actionRow button:hover,.pageMeta button:hover{background:#f1f5f9}
-.richEditor{min-height:300px;max-height:390px;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:16px;background:#fff;outline:none;font-family:Vazirmatn,sans-serif;font-size:17px;line-height:1.9;text-align:right}
+.richEditor{min-height:300px;max-height:390px;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:16px;background:#fff;outline:none;font-family:Vazirmatn,sans-serif;font-size:17px;line-height:1.9;text-align:right;direction:rtl;unicode-bidi:plaintext}
 .richEditor:focus{border-color:#94a3b8;box-shadow:0 0 0 3px #e2e8f0}
 .richEditor h1{font-size:1.7em;line-height:1.35;margin:.5em 0}.richEditor h2{font-size:1.35em;margin:.7em 0}.richEditor p{margin:.7em 0}
 .actionRow{display:flex;gap:8px;margin-top:10px}
