@@ -132,6 +132,12 @@ export default function Page() {
   }, [html, font, size, lineHeight, padding, bg, color, accent, align]);
 
   useEffect(() => {
+    if (editorRef.current) {
+      editorRef.current.innerHTML = html;
+    }
+  }, [editorVersion]);
+
+  useEffect(() => {
     const onSelection = () => {
       const sel = window.getSelection();
       if (!sel || sel.rangeCount === 0 || !editorRef.current) return;
@@ -282,8 +288,8 @@ export default function Page() {
             contentEditable
             suppressContentEditableWarning
             dir="rtl"
+            lang="fa"
             onInput={(e) => setHtml(cleanHtml(e.currentTarget.innerHTML))}
-            dangerouslySetInnerHTML={{ __html: html }}
           />
 
           <div className="actionRow">
