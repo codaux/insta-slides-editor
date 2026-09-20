@@ -40,9 +40,9 @@ select,input[type=number]{width:100%;border:1px solid var(--line);border-radius:
 .pagesGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:28px;align-items:start}
 .pageCard{min-width:0}
 .pageMeta{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px;font-size:13px;font-weight:700;color:#475569}
-.previewShell{position:relative;overflow:hidden;background:#dbe2ea;border-radius:18px;box-shadow:0 16px 34px rgba(15,23,42,.12);margin:auto}
-.previewScale{transform-origin:top left;width:1080px;height:1350px}
-.exportPage{position:relative;overflow:hidden}
+.previewShell{position:relative;overflow:hidden;background:#dbe2ea;border-radius:18px;box-shadow:0 16px 34px rgba(15,23,42,.12);margin:auto;direction:ltr}
+.previewScale{position:absolute;left:0;top:0;transform-origin:top left;width:1080px;height:1350px;direction:ltr}
+.exportPage{position:relative;overflow:hidden;direction:ltr}
 .slideNumber{position:absolute;left:48px;bottom:38px;font:600 25px/1 Inter,sans-serif;opacity:.65}
 
 .flowViewport{overflow:hidden;position:relative}
